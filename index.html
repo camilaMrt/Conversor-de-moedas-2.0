@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <title>Conversor de Moedas</title>
+</head>
+
+<body>
+    <header id="cabecalho">
+        <h1>Conversor de Moedas</h1>
+    </header>
+
+    <main>
+        <section id="sessaoPrincipal">
+            <p class="paragrafo">Converter <b>de</b> </p>
+            <select class="select">
+                <option>R$ Real</option>
+            </select>
+
+            <p class="paragrafo">Converter <b>para</b> </p>
+            <select class="select" id="selectMoedas">
+                <option>$ Dólar</option>
+                <option>€ Euro</option>
+            </select>
+
+            <p class="paragrafo"><b>Valor</b></p>
+            <input id="input" placeholder="R$ 10.000,00" type="number">
+
+            <button id="botao">Converter</button>
+        </section>
+
+        <section id="sessaoResultado">
+            <div class="containerResultado">
+                <img src="./img/brasil-logo.png" class="logoBrasil">
+                <p class="paragrafo2">Real</p>
+                <p class="paragrafoResultado" id="textoReal">R$ 0,00</p>
+            </div>
+
+            <figure>
+                <img src="https://recursos.emporiodoazeite.com.br/MediaCenter/seta_baixo_fade.png" class="seta">
+            </figure>
+
+            <div class="containerResultado">
+                <img src="./img/eua-logo.png" class="logoEua" id="bandeiraMoedas">
+                <p class="paragrafo2" id="textoMoedas">Dólar</p>
+                <p class="paragrafoResultado" id="inputMoedas">$ 0,00</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

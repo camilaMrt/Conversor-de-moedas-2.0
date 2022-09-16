@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Qwitcher+Grypen:wght@400;700&display=swap');
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: 'Qwitcher Grypen', cursive;
+}
+
+body {
+    background-color: black;
+}
+
+#cabecalho {
+    background-color: black;
+    align-items: center;
+}
+
+main {
+    width: 55vw;
+    height: 70vh;
+    margin: 0 auto 0 auto;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px 0 35px 0;
+    background-image: url("./img/fundo-ouro.jpg");
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 60%;
+}
+
+#sessaoPrincipal {
+    display: inline-block;
+    background-color: black;
+    width: 375px;
+    padding: 24px;
+    border-radius: 10px;
+    margin-left: 1vw;
+}
+
+.paragrafo {
+    margin-bottom: 6px;
+    color: gold;
+    font-size: 18px;
+    font-family: 'Abel', sans-serif;
+}
+
+.paragrafo2 {
+    color: gold;
+    font-size: 35px;
+    margin: 0 60px;
+}
+
+b {
+    font-size: 30px;
+}
+
+.select {
+   background-color: black;
+   color: #d1cece; 
+   border: 1px solid rgba(255, 217, 0, 0.434);
+   border-radius: 4px;
+   height: 35px;
+   width: 327px;
+   margin-bottom: 23px;
+   outline: none;
+   cursor: pointer;
+   padding-left: 16px;
+   font-size: 28px;
+   font-weight: bold;
+}
+
+#input {
+    color: #d1cece;
+    height: 35px;
+    width: 327px;
+    background-color: black;
+    border: 1px solid #d1cece80;
+    border-radius: 4px;
+    margin-bottom: 23px;
+    outline: none;
+    padding-left: 16px;
+    font-size: 15px;
+    font-family: 'Abel', sans-serif;
+}
+
+#botao {
+    background-color: black;
+    border-radius: 3px;
+    display: block;
+    height: 48px;
+    width: 327px;
+    cursor: pointer;
+    border: 1px solid rgba(255, 217, 0, 0.434);
+    margin-top: 25px;
+    font-size: 18px;
+    color: rgba(255, 217, 0, 0.735);
+    transition: .5s ease;
+    font-family: 'Abel', sans-serif;
+}
+
+#botao:hover {
+    background-color: gold;
+    color: black;    
+}
+
+#botao:active {
+    opacity: 0.3;
+}
+
+#sessaoResultado {
+    display: inline-block;
+    position: absolute;
+    padding: 60px 60px;
+}
+
+.containerResultado {
+    text-align: center;
+}
+
+.logoBrasil {
+    width: 50px;
+    margin: 0 60px -10px 60px;
+}
+
+figure, .seta {
+    padding: 10px 0;
+    width: 40px;
+    margin: 0 auto;
+}
+
+.logoEua {
+    width: 40px;
+    margin: 0 60px;
+}
+
+.paragrafoResultado {
+    color: #d1cece;
+    font-size: 15px;
+    font-family: 'Abel', sans-serif;
+    margin-top: 5px;
+}
+
+
+
+@media screen and (max-width: 900px){
+
+    main {
+        width: 100%;
+        margin: 0 2vw 0 2vw;
+    }
+
+    #cabecalho {
+        width: 100%;
+    }
+
+    h1 {
+        margin-top: 5vh;
+        font-size: 280%;
+        width: 100%;
+    }
+
+    #sessaoPrincipal {
+        display: block;
+        width: 94%;
+        padding-top: 2vh;
+    }
+
+    .paragrafo {
+        font-size: 100%;
+        width: 100%;
+    }
+
+    .paragrafo2 {
+        font-size: 200%;
+        margin: 0 1vw 1vh 1vw;
+    }
+    
+    b {
+        font-size: 160%;
+    }
+
+    .select {
+        width: 100%;
+        margin-bottom: 2vh;
+        padding-left: 16px;
+        font-size: 160%;
+    }
+         
+    #input {
+        width: 100%;
+        margin-bottom: 1vh;
+        font-size: 100%;
+    }
+
+    #botao {
+        width: 100%;
+        margin-top: 25px;
+        font-size: 18px;
+    }
+    
+    #sessaoResultado {
+        display: flex;
+        width: 100%;
+        position: static;
+        padding: 5vh 8vw 5vh 5vw ;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .logoBrasil {
+        width: 55px;
+        margin: 0;
+    }
+    
+    .logoEua {
+        width: 42px;
+        margin: 0.4vh 0 1.3vh 0;
+    }
+
+    figure {
+        transform: rotate(270deg);
+        width: 10%;
+        margin: 0 12vw 0 15vw;
+    }
+    
+       
+   
+}
