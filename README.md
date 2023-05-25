@@ -26,8 +26,8 @@
 
 <h3>:triangular_flag_on_post: Funcionalidades</h3> <br>
 
-:small_blue_diamond:
+:small_blue_diamond: Função principal de converter o valor em reais para dólar ou euro.
 
-:small_blue_diamond:
+:small_blue_diamond: Adicionada a API de cotações do site <a href="https://docs.awesomeapi.com.br/api-de-moedas"><img width="70" align="center" src="https://"></a> .
 
 :small_blue_diamond:  
