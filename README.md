@@ -28,6 +28,8 @@
 
 :small_blue_diamond: Função principal de converter o valor em reais para dólar ou euro.
 
-:small_blue_diamond: Adicionada a API de cotações do site <a href="https://docs.awesomeapi.com.br/api-de-moedas"><img width="70" align="center" src="https://"></a> .
+:small_blue_diamond: Adicionada a API de cotações do site &ensp;<a href="https://docs.awesomeapi.com.br/api-de-moedas"><img width="90" align="center" src="https://raw.githubusercontent.com/camilaMrt/Conversor-de-moedas-2.0/52834e1bf516774aa1937cc3f4ca27271ed6e065/img/awesomeAPI.png"></a> &ensp;. Atualizando assim o valor da moeda selecionada a cada 30 segundos.
 
-:small_blue_diamond:  
+:small_blue_diamond: Inputs para escolher o tipo de moeda e para adicionar valor a ser convertido. A função é realizada após clicar no botão 'Converter'.
+
+:small_blue_diamond: Site com desenvolvimento web responsivo.
